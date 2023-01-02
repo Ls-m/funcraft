@@ -1,0 +1,173 @@
+.Tabs{
+    /* display: flex;
+    flex-direction: row; */
+    margin-left: auto;
+    margin-right: auto;
+    
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+   
+
+}
+.zodayesh{
+    width: 28%; 
+    height: 30px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+   
+    margin-top: 30px;
+    margin-right: 10px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    /* margin-left: 8%; */
+    background: #ed2c2c;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.enteshar{
+    width: 28%; 
+    height: 30px;
+        margin-bottom: 10px;
+
+    border-radius: 10px;
+  
+    margin-top: 30px;
+    margin-right: 10px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    /* margin-left: 8%; */
+    background: #2ca549;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.laghv{
+    width: 28%; 
+    height: 30px;    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* margin-right: 10px; */
+    color: #fff;
+    padding: 0;
+    border: none;
+    /* margin-left: 8%; */
+    background: #8297f7;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.entekhab{
+    background: #c2caec;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+.TabsList{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.TabsList .tabHead{
+    /* border-radius: 10%; */
+    /* padding: 2rem; */
+    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+   
+    padding:5% 20%;
+    border: 2px solid rgb(27, 18, 18);
+    border-radius: 5px;
+    
+
+}
+.tabContant{
+    /* background: rgb(209, 151, 237); */
+    background-color: red;
+    color: #282c34;
+    height: 10rem;
+    width: 18.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active{
+    background: rgb(187, 96, 233);
+    color: #282c34;
+}
+
+.dash-button {
+    width: 89%;
+    border-style: dashed;
+    border-radius: 15px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #1a0303;
+    background-color: #ffffff00;
+    border-color: #0f0101;
+    padding: 0;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dash-button:hover {
+    background: #a8b7f3;
+    color: #000000;
+}
+.game-mode-list {
+    background-color: #ffffff;
+    border-radius: 1px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 44rem;
+}
+.blue-button {
+    width: 90%;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    /* margin-left: 8%; */
+    background: #2c52ed;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.blue-button:hover {
+    background: #9badf4;
+
+}
+
+
+.white {
+    color: #fff;
+}
+
+.full-width {
+    width: 100% !important;
+}
+

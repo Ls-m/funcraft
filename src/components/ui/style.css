@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazirmatn;
+    /* background-color: #f8f4f4; */
+}
+.bg-white{
+    background-color: white;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    padding: 40px 30px 50px 30px;
+    background: #374778;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.white {
+    color: #fff;
+}
+
+
+
+
+.wrapper-without-color {
+    width: 380px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    padding: 40px 30px 50px 30px;
+    background: #374778;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper header {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.wrapper form {
+    margin: 40px 0;
+}
+
+form .field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* form .field.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% {
+        margin-left: 0px;
+    }
+    20%, 80% {
+        margin-left: -12px;
+    }
+    40%, 60% {
+        margin-left: 12px;
+    }
+}
+
+form .field .input-area {
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+form input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #fff;
+    background: none;
+    caret-color: #5372F0;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+}
+
+
+form input[type="text"] {
+    background: #374778;
+}
+
+form .field input:focus,
+form .field.valid input {
+    border-color: #5372F0;
+}
+
+form .field.shake input,
+form .field.error input {
+    border-color: #dc3545;
+}
+
+.field .input-area i {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.input-area .icon {
+    left: 15px;
+    color: #bfbfbf;
+    transition: color 0.2s ease;
+}
+
+.input-area .error-icon {
+    right: 15px;
+    color: #dc3545;
+}
+
+form input:focus ~ .icon,
+form .field.valid .icon {
+    color: #5372F0;
+}
+
+form .field.shake input:focus ~ .icon,
+form .field.error input:focus ~ .icon {
+    color: #bfbfbf;
+}
+
+form input::placeholder {
+    color: #bfbfbf;
+    font-size: 17px;
+} */
+
+form .field .error-txt {
+    color: #7580A2;
+    text-align: left;
+    margin-top: 5px;
+}
+
+form .field .error {
+    display: none;
+}
+
+/* form .field.shake .error,
+form .field.error .error {
+    display: block;
+} */
+
+.fix-position {
+    position: absolute;
+    top: 55px;
+}
+
+.full-width {
+    width: 100% !important;
+}
+.game-list {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    right: 0;
+    
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1);
+    overflow: auto;
+    scroll-margin: 100px;
+    z-index: -1;
+}
+
+.index-row{
+    width: 60%;
+    padding: 20px;
+}
+
+.grey-color{
+    color: grey;
+}
+
+.blue-background{
+    background-color: #374778;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
